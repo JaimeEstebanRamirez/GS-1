@@ -10,7 +10,7 @@ class User{
     private $dbHost     = "webappgroupswitzerland-mysqldbserver.mysql.database.azure.com";
     private $dbUsername = "mysqldbuser@webappgroupswitzerland-mysqldbserver";
     private $dbPassword = "@Italy2018";
-    private $dbName     = "GSDB_1";
+    private $dbName     = "GSDB1";
     private $userTbl    = "users";
     
     public function __construct(){
