@@ -10,12 +10,12 @@ if(!empty($sessData['status']['msg'])){
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Registration and Login System with PHP and MySQL by CodexWorld</title>
+    <title>Registration and Login System with PHP and MySQL by GroupSwitzerland</title>
     <link rel="stylesheet" href="style.css" type="text/css" media="all" />
     <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900" 	type="text/css" media="all">
 </head>
 <body>
-    <h1>USER REGISTRATION AND LOGIN SYSTEM BY CODEXWORLD</h1>
+    <h1>USER REGISTRATION AND LOGIN SYSTEM BY GroupSwitzerland</h1>
 	<div class="container">
 		<h2>Enter the Email of Your Account to Reset New Password</h2>
         <?php echo !empty($statusMsg)?'<p class="'.$statusMsgType.'">'.$statusMsg.'</p>':''; ?>
