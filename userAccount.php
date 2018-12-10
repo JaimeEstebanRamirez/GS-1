@@ -117,7 +117,7 @@ if(isset($_POST['signupSubmit'])){
 				$headers = "MIME-Version: 1.0" . "\r\n";
 				$headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
 				//additional headers
-				$headers .= 'From: CodexWorld<sender@example.com>' . "\r\n";
+				$headers .= 'From: noreply.groupswitzerland@gmail.com>' . "\r\n";
 				//send email
 				mail($to,$subject,$mailContent,$headers);
 				
