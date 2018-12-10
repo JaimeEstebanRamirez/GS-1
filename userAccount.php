@@ -98,9 +98,8 @@ if(isset($_POST['signupSubmit'])){
 			$update = $user->update($data, $conditions);
 			
 			if($update){
-				$resetPassLink = 'https://php-login-system.azurewebsites.net/resetPassword.php?fp_code='.$userData['forgot_pass_identity']
-
-              
+				$resetPassLink = 'http://codexworld.com/resetPassword.php?fp_code='.$uniqidStr;
+				
 				//get user details
 				$con['where'] = array('email'=>$_POST['email']);
 				$con['return_type'] = 'single';
